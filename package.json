@@ -1,0 +1,26 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator application built with Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Usman",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.1.0",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "productName": "Calculatorrr",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": "deb"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141212;
+  overflow: hidden;
+}
+
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #251f1f;
+  height: 77vh;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 91%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.result-input {
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button.number {
+  background-color: #e0e0e0;
+}
+button.number:hover {
+  background-color: #fff;
+}
+
+button.operator {
+  background-color: #f2994a;
+  background-color: rgb(37, 127, 137);
+  color: #fff;
+}
+button.operator:hover {
+  background-color: rgb(6, 184, 204);
+}
+button.clear:hover {
+  background-color: rgb(6, 184, 204);
+}
+button.clear {
+  background-color: #f2994a;
+  background-color: rgb(37, 127, 137);
+
+  color: #fff;
+}
+.row .number,
+.row .operator {
+  width: 60px;
+  height: 50px;
+}
+.row .operator {
+  margin-bottom: 10px;
+}
+.align-equal-btn {
+  width: 187px !important;
+  height: 50px;
+  background-color: rgb(6, 184, 204);
+}
+.align-equal-btn:hover {
+  background-color: rgb(15, 173, 175);
+}
+.clear {
+  width: 60px;
+  height: 50px;
+}
