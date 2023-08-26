@@ -19,7 +19,7 @@
   "build": {
     "productName": "Calculator App",
     "directories": {
-      "output": "dist"
+      "output": "data"
     },
     "linux": {
       "target": "deb",

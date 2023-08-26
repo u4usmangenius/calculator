@@ -4,10 +4,11 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 600,
     height: 500,
-    title:"Calculator",
+    title: "Calculator",
     resizable: false,
     webPreferences: {
       nodeIntegration: true,
+      os: "Windows",
     },
   });
 
